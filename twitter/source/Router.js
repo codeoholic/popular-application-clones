@@ -15,27 +15,17 @@ import {
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
-
-{/*<Stack.Navigator initialRouteName="Splash" screenOptions={{ gestureEnabled: true }}>
-    <Stack.Screen
-        name="Splash"
-        component={Splash}
-        options={{ headerShown: false, animationEnabled: false }}
-    />
-    <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{ headerShown: false, animationEnabled: false }}
-    />
-</Stack.Navigator>*/}
-
-
 function NavStack() {
     return (
         <Stack.Navigator initialRouteName="Splash" screenOptions={{ gestureEnabled: true }}>
             <Stack.Screen
                 name="Splash"
                 component={Splash}
+                options={{ headerShown: false, animationEnabled: false }}
+            />
+            <Stack.Screen
+                name="Home"
+                component={Home}
                 options={{ headerShown: false, animationEnabled: false }}
             />
         </Stack.Navigator>

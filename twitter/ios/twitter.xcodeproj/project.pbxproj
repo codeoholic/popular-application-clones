@@ -19,7 +19,7 @@
 		7C5A3F1023120B3B1CE4E2DA /* libPods-twitter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9395757134FFF37444779A3E /* libPods-twitter-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D11510D1F653D0F78897196F /* libPods-twitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA79C513B1FBB5DFA7AC491 /* libPods-twitter.a */; };
-		E44DC4642604E59600598FC4 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44DC4632604E59600598FC4 /* BootSplash.storyboard */; };
+		E47B03B62604F04A00CAF66A /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47B03B52604F04A00CAF66A /* BootSplash.storyboard */; };
 		E80AA7A8A3CC3BA90B7C7F6A /* libPods-twitter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE953B2990F3B2B9E6B8D1EC /* libPods-twitter-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		AD0BE15E0CA4E6EEFF1A0320 /* Pods-twitter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-twitter-tvOSTests/Pods-twitter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDC3040F7A7F7BC0E2476FBE /* libPods-twitter-twitterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twitter-twitterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE953B2990F3B2B9E6B8D1EC /* libPods-twitter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twitter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E44DC4632604E59600598FC4 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = twitter/BootSplash.storyboard; sourceTree = "<group>"; };
+		E47B03B52604F04A00CAF66A /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = twitter/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -132,7 +132,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				E44DC4632604E59600598FC4 /* BootSplash.storyboard */,
+				E47B03B52604F04A00CAF66A /* BootSplash.storyboard */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -342,7 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44DC4642604E59600598FC4 /* BootSplash.storyboard in Resources */,
+				E47B03B62604F04A00CAF66A /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
