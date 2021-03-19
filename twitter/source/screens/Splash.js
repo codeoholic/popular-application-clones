@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native';
 import { connect } from 'react-redux';
 
 class Splash extends Component{
@@ -7,11 +7,15 @@ class Splash extends Component{
         super(props);
     }
     componentDidMount(){
-        this.props.navigation.replace("Home");
+        // this.props.navigation.replace("Home");
     }
     render(){
         return(
-            <View/>
+            <SafeAreaView>
+                <View>
+                    <Text>Hello Twitter Splash</Text>
+                </View>
+            </SafeAreaView>
         )
     }
 }
